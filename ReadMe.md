@@ -27,7 +27,11 @@
 
 6.怎么拉取更新
 
+我先尝试使用了`git fetch origin main`，发现只是将远程仓库下载到本地。且此时出现了两个分支，一个是本地的main分支，一个是远程的FETCH_HEAD分支，因为我最开始不知道怎么合并，且打出`git status`后建议我`git pull`下，所以我就执行了一次`git pull`,就得到了最新的提交，在main分支上。
 
+所以这里 `git pull = git fetch + git merge`
+
+后面我还想知道本地分支和远程分支的比较命令，抑或，每次只要fetch下，有结果则证明需要合并，没有结果则不需要合并。
 
 
 
